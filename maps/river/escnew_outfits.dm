@@ -1159,12 +1159,12 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
-	back = /obj/item/weapon/gun/launcher/oneuse/m72
+	back = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 	head = /obj/item/clothing/head/ushanka/uswintercap
 	suit = /obj/item/clothing/suit/armor/vest/coat/usa
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	r_hand = /obj/item/weapon/gun/launcher/oneuse/m72
 
 
 /decl/hierarchy/outfit/job/coldwar/usmc/grenadier
