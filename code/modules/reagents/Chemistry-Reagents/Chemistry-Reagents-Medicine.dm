@@ -812,13 +812,13 @@
 	reagent_state = LIQUID
 	color = "#800080"
 	flags = IGNORE_MOB_SIZE
-	overdose = 15
+	overdose = 20
 	metabolism = 0.10
 	ingest_met = -1
 
 /datum/reagent/morphine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien != IS_DIONA)
-		M.add_chemical_effect(CE_PAINKILLER, 80)
+		M.add_chemical_effect(CE_PAINKILLER, 90)
 	M.add_chemical_effect(CE_PULSE, 1)
 	if(prob(5))
 		M.emote(pick("twitch", "blink_r", "shiver"))
