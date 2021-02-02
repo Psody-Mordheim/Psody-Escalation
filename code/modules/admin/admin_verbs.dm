@@ -101,6 +101,7 @@ var/list/admin_verbs_admin = list(
 	/client/proc/list_traders,
 	/client/proc/add_trader,
 	/client/proc/show_battle_report,
+	/client/proc/announce_battle_start,
 	/client/proc/remove_trader,
 	/datum/admins/proc/sendFax
 )
