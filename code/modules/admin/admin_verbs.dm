@@ -1112,7 +1112,7 @@ var/global/list/global_colour_matrix = null
 	set name = "Announce Battle Start"
 	to_world("<b><font size=4>Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</font></b>")
 	to_world("<b><font size=4>I repeat again! Attention all units! The missiles are flying! Move forward and destroy the enemy!</font></b>")
-	to_world("<b><font size=4>This will be our last broadcast regimental Command Out! Good Hunting!</font></b>")
+	to_world("<b><font size=4>This will be our last broadcast, good luck and good hunting! Regimental Command Out!</font></b>")
 	sound_to(world, 'sound/effects/Evacuation.ogg')
 	log_and_message_admins("has started WW3")
 
@@ -1120,12 +1120,12 @@ var/global/list/global_colour_matrix = null
 	set category = "EscAdmin"
 	set name = "GRU Speznaz Major Victory"
 	log_and_message_admins("has declared GRU Spetznaz Major Victory")
-	to_world("<b><font size=8>THE GRU SPETZNAZ DOMINATE THE BATTLEFIELD, YA SPETZNAZ!!!</font></b>")
+	to_world("<b><font size=7>THE GRU SPETZNAZ DOMINATE THE BATTLEFIELD, YA SPETZNAZ!!!</font></b>")
 	sound_to(world, 'sound/effects/speznaztheme.ogg')
 
 /client/proc/usranger_major()
 	set category = "EscAdmin"
 	set name = "US Army Ranger Major Victory"
 	log_and_message_admins("has declared US Ranger Major Victory")
-	to_world("<b><font size=8>THE US ARMY RANGERS DOMINATE THE BATTLEFIELD, RANGERS LEAD THE WAY!!!</font></b>")
+	to_world("<b><font size=7>THE US ARMY RANGERS DOMINATE THE BATTLEFIELD, RANGERS LEAD THE WAY!!!</font></b>")
 	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
