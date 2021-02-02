@@ -658,9 +658,9 @@
 	open_delay = 2
 	storage_slots = 3
 	startswith = list(
-		/obj/item/weapon/grenade/frag,
-		/obj/item/weapon/grenade/frag,
-		/obj/item/weapon/grenade/smokebomb
+		/obj/item/weapon/grenade/frag/f1,
+		/obj/item/weapon/grenade/frag/f1,
+		/obj/item/weapon/grenade/smokebomb/wp
 	)
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
@@ -746,9 +746,9 @@
 	open_delay = 2
 	storage_slots = 3
 	startswith = list(
-		/obj/item/weapon/grenade/frag,
-		/obj/item/weapon/grenade/frag,
-		/obj/item/weapon/grenade/smokebomb
+		/obj/item/weapon/grenade/frag/f1 ,
+		/obj/item/weapon/grenade/frag/f1 ,
+		/obj/item/weapon/grenade/smokebomb/wp
 	)
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
