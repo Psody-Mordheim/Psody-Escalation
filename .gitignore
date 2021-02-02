@@ -20,13 +20,9 @@ __pycache__
 #config/*
 #!config/*/
 config/admins.txt
-config/whitelist_escalation.txt
-config/fireteams.txt
 config/motd.txt
 config/admins.txt
 config/admins.txt
 config/dbconfig.txt
-config/whitelist_escalation.txt
 config/config.txt
 baystation12.dme
-config/whitelist_escalation.txt
