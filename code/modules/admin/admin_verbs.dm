@@ -1103,3 +1103,11 @@ var/global/list/global_colour_matrix = null
 			global_colour_matrix = list(1, 0.33, 0.33,\
 										0, 0.33, 0.33,\
 										0, 0.33, 0.33)
+
+/client/proc/announce_battle_start()
+	set category = "EscAdmin"
+	set name = "Announce Battle Start"
+
+	to_world("<b>Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</b>")
+	to_world("<b>I repeat again! Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</b>")
+	to_world("<b>High Command Out</b>")
