@@ -499,7 +499,11 @@
 		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45m,
+	)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -564,7 +568,12 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m
+	)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 
@@ -648,9 +657,12 @@
 	item_state = "sa_grenade"
 	open_delay = 2
 	storage_slots = 3
-	startswith = null
+	startswith = list(
+		/obj/item/weapon/grenade/frag,
+		/obj/item/weapon/grenade/frag,
+		/obj/item/weapon/grenade/smokebomb
+	)
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
-
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	w_class = ITEM_SIZE_HUGE
@@ -665,7 +677,12 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m
+	)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 
@@ -728,7 +745,11 @@
 	item_state = "nvaddr_grenade"
 	open_delay = 2
 	storage_slots = 3
-	startswith = null
+	startswith = list(
+		/obj/item/weapon/grenade/frag,
+		/obj/item/weapon/grenade/frag,
+		/obj/item/weapon/grenade/smokebomb
+	)
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 //finnish
@@ -773,7 +794,11 @@
 	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
-	startswith = null
+	startswith = list(
+		/obj/item/weapon/grenade/frag,
+		/obj/item/weapon/grenade/frag,
+		/obj/item/weapon/grenade/smokebomb
+	)
 
 
 //ugl nade pouches
