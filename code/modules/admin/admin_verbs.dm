@@ -1113,7 +1113,7 @@ var/global/list/global_colour_matrix = null
 
 	to_world("<b><font size=2>Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</font></b>")
 	to_world("<b><font size=2>I repeat again! Attention all units! The missiles are flying! Move forward and destroy the enemy!</font></b>")
-	to_world("<b><font size=2>Regimental Command Out!</font></b>")
+	to_world("<b><font size=2>Regimental Command Out! Good Hunting!</font></b>")
 	sound_to(world, 'sound/effects/Evacuation.ogg')
 	log_and_message_admins("has started WW3")
 
@@ -1124,9 +1124,7 @@ var/global/list/global_colour_matrix = null
 	to_world("<b><font size=4>THE GRU SPETZNAZ DOMINATE THE BATTLEFIELD, YA SPETZNAZ!!!</font></b>")
 	sound_to(world, 'sound/effects/speznaztheme.ogg')
 
-
-
-	/client/proc/usranger_major()
+/client/proc/usranger_major()
 	set category = "EscAdmin"
 	set name = "US Army Ranger Major Victory"
 	log_and_message_admins("has declared US Ranger Major Victory")
