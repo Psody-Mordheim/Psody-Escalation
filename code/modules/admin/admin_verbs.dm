@@ -1111,3 +1111,4 @@ var/global/list/global_colour_matrix = null
 	to_world("<b>Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</b>")
 	to_world("<b>I repeat again! Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</b>")
 	to_world("<b>High Command Out</b>")
+	playsound(world, 'sound/effects/Evacuation.ogg')
