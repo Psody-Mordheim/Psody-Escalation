@@ -102,6 +102,8 @@ var/list/admin_verbs_admin = list(
 	/client/proc/add_trader,
 	/client/proc/show_battle_report,
 	/client/proc/announce_battle_start,
+	/client/proc/speznaz_major,
+	/client/proc/usranger_major,
 	/client/proc/remove_trader,
 	/datum/admins/proc/sendFax
 )
@@ -1109,8 +1111,24 @@ var/global/list/global_colour_matrix = null
 	set category = "EscAdmin"
 	set name = "Announce Battle Start"
 
-	to_world("<b>Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</b>")
-	to_world("<b>I repeat again! Attention all units! The missiles are flying! Move forward and destroy the enemy!</b>")
-	to_world("<b>Regimental Command Out</b>")
+	to_world("<b><font size=2>Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</font></b>")
+	to_world("<b><font size=2>I repeat again! Attention all units! The missiles are flying! Move forward and destroy the enemy!</font></b>")
+	to_world("<b><font size=2>Regimental Command Out!</font></b>")
 	sound_to(world, 'sound/effects/Evacuation.ogg')
 	log_and_message_admins("has started WW3")
+
+/client/proc/speznaz_major()
+	set category = "EscAdmin"
+	set name = "GRU Speznaz Major Victory"
+	log_and_message_admins("has declared GRU Spetznaz Major Victory")
+	to_world("<b><font size=4>THE GRU SPETZNAZ DOMINATE THE BATTLEFIELD, YA SPETZNAZ!!!</font></b>")
+	sound_to(world, 'sound/effects/speznaztheme.ogg')
+
+
+
+	/client/proc/usranger_major()
+	set category = "EscAdmin"
+	set name = "US Army Ranger Major Victory"
+	log_and_message_admins("has declared US Ranger Major Victory")
+	to_world("<b><font size=4>THE US ARMY RANGERS DOMINATE THE BATTLEFIELD, RANGERS LEAD THE WAY!!!</font></b>")
+	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
