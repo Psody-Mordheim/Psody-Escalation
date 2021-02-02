@@ -1110,6 +1110,7 @@ var/global/list/global_colour_matrix = null
 	set name = "Announce Battle Start"
 
 	to_world("<b>Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</b>")
-	to_world("<b>I repeat again! Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</b>")
+	to_world("<b>I repeat again! Attention all units! The missiles are flying! Move forward and destroy the enemy!</b>")
 	to_world("<b>Regimental Command Out</b>")
 	sound_to(world, 'sound/effects/Evacuation.ogg')
+	log_and_message_admins("has started WW3")
