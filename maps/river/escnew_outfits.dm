@@ -1155,7 +1155,7 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/pfc
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	back_2 = /obj/item/weapon/gun/launcher/oneuse/m72
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
@@ -1164,6 +1164,8 @@
 	suit = /obj/item/clothing/suit/armor/vest/coat/usa
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+
 
 /decl/hierarchy/outfit/job/coldwar/usmc/grenadier
 	name = OUTFIT_JOB_NAME("Coldwar - USMC Grenadier")
@@ -1279,13 +1281,13 @@
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back_2 = /obj/item/weapon/storage/backpack/usmc_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
 	back = /obj/item/weapon/radioset/prc77
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_pocket = /obj/item/weapon/masterkey/usmcsarge
 	l_ear = /obj/item/device/binoculars/nato
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
 	suit = /obj/item/clothing/suit/armor/vest/coat/usa
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
