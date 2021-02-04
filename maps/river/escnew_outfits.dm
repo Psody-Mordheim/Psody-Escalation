@@ -116,6 +116,7 @@
 	head = /obj/item/clothing/head/helmet/coldwar/soviet/altyn
 	belt = /obj/item/weapon/storage/belt/harness/sa
 	mask = /obj/item/clothing/mask/balaclava/tactical
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 
 /decl/hierarchy/outfit/job/coldwar/soviet/platmgass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Platoon MG Assistant")
