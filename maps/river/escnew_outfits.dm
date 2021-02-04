@@ -61,6 +61,7 @@
 	r_pocket = /obj/item/weapon/masterkey/sovsarge
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	mask = /obj/item/clothing/mask/balaclava/tactical
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomod
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Zamestitel' Komandir Otdeleniya")
@@ -75,7 +76,7 @@
 	head = /obj/item/clothing/head/garcap/soviet
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
-
+	mask = /obj/item/clothing/mask/balaclava/tactical
 
 /decl/hierarchy/outfit/job/coldwar/soviet/strifle
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Starshiy Strelok")
@@ -101,6 +102,7 @@
 	l_pocket = /obj/item/weapon/key/wpmed
 	r_pocket = null
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	mask = /obj/item/clothing/mask/balaclava/tactical
 
 /decl/hierarchy/outfit/job/coldwar/soviet/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Platoon MG")
@@ -140,6 +142,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	mask = /obj/item/clothing/mask/balaclava/tactical
 
 /decl/hierarchy/outfit/job/coldwar/soviet/sniper
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Snaiper")
@@ -162,8 +165,9 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	back = /obj/item/weapon/storage/backpack/gassoviet
-	head = /obj/item/clothing/head/garcap/soviet
+	head = /obj/item/clothing/head/helmet/coldwar/soviet/altyn
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	mask = /obj/item/clothing/mask/balaclava/tactical
 
 /decl/hierarchy/outfit/job/coldwar/soviet/mgass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet MG Assistant")
@@ -192,6 +196,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	mask = /obj/item/clothing/mask/balaclava/tactical
 
 /decl/hierarchy/outfit/job/coldwar/soviet/rocketass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet RPG Assistant")
@@ -216,8 +221,10 @@
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
-	head = /obj/item/clothing/head/garcap/soviet
+	head = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	mask = /obj/item/clothing/mask/balaclava/tactical
+
 
 /decl/hierarchy/outfit/job/coldwar/soviet/radio/pre_equip(mob/living/carbon/human/H)
 	..()
