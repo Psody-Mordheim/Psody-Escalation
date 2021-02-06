@@ -16,9 +16,9 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 		return
 	var/cannotzoom
 
-	if(src.incapacitated(INCAPACITATION_DISABLED))
-		to_chat(src, "<span class='warning'>You are unable to focus your vision.</span>")
-		cannotzoom = 1
+//	if(src.incapacitated(INCAPACITATION_DISABLED))
+//		to_chat(src, "<span class='warning'>You are unable to focus your vision.</span>")
+//		cannotzoom = 1
 //	else if(!zoom && src.equipment_tint_total >= TINT_MODERATE)
 //		to_chat(src, "<span class='warning'>Your visor gets in the way of looking far.</span>")
 //		cannotzoom = 1
