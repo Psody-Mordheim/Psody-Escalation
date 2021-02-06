@@ -77,7 +77,13 @@ Gruppe Charlie:bund
 /datum/job/escalation/bund/bdwcorpsman
 @END@
 
-Schweren Waffen Gruppe:bund
+Schweren Waffen Gruppe 'Heinrich':bund
+/datum/job/escalation/bund/mgcom
+/datum/job/escalation/bund/mgload
+/datum/job/escalation/bund/mgop
+@END@
+
+Schweren Waffen Gruppe 'Friedrich':bund
 /datum/job/escalation/bund/mgcom
 /datum/job/escalation/bund/mgload
 /datum/job/escalation/bund/mgop
@@ -206,7 +212,13 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvacorpsman
 @END@
 
-Schweren Waffen Gruppe:nvaddr
+Schweren Waffen Gruppe 'Dora':nvaddr
+/datum/job/escalation/nvaddr/mgcom
+/datum/job/escalation/nvaddr/mgload
+/datum/job/escalation/nvaddr/mgop
+@END@
+
+Schweren Waffen Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/mgcom
 /datum/job/escalation/nvaddr/mgload
 /datum/job/escalation/nvaddr/mgop
